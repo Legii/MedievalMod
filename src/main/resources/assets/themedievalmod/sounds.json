@@ -1,0 +1,16 @@
+{
+  "item.warhorn_sound": {
+    "category": "item",
+    "subtitle": "item.warhorn_sound.sub",
+    "sounds": [
+      {
+        "name": "themedievalmod:item/warhorn_sound",
+        "stream": true
+      }
+    ]
+
+
+
+  }
+
+}

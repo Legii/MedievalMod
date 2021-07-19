@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "themedievalmod:block/shooting_hole", "y": 270 },
+    "facing=south": { "model": "themedievalmod:block/shooting_hole", "y": 90 },
+    "facing=east": { "model": "themedievalmod:block/shooting_hole" },
+    "facing=west": { "model": "themedievalmod:block/shooting_hole", "y": 180}
+  }
+}
