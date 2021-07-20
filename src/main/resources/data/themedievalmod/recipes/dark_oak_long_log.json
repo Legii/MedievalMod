@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"L",
+		"L"
+	],
+	"key": {
+		"L": {
+			"item": "minecraft:dark_oak_log"
+		}
+
+	},
+	"result": {
+		"item": "themedievalmod:dark_oak_long_log",
+		"count": 4
+	}
+}
+
+
+
+}

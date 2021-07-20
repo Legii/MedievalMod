@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"L",
+		"L"
+	],
+	"key": {
+		"L": {
+			"item": "minecraft:birch_log"
+		}
+
+	},
+	"result": {
+		"item": "themedievalmod:birch_long_log",
+		"count": 4
+	}
+}
+
+
+
+}

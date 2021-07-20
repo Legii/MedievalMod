@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SS",
+		"SS"
+	],
+	"key": {
+		"S": {
+			"item": "minecraft:stone_bricks"
+		}
+
+	},
+	"result": {
+		"item": "themedievalmod:wall_block",
+		"count": 4
+	}
+}
+
+
+
+}

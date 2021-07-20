@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WWW",
+		"WWW"
+	],
+	"key": {
+		"W": {
+			"item": "themedievalmod:wall_block"
+		}
+
+	},
+	"result": {
+		"item": "themedievalmod:battlements",
+		"count": 6
+	}
+}
+
+
+
+}
