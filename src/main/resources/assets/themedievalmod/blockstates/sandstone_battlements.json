@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "themedievalmod:block/sandstone_battlements", "y": 270  },
+    "facing=south": { "model": "themedievalmod:block/sandstone_battlements", "y": 90 },
+    "facing=east": { "model": "themedievalmod:block/sandstone_battlements","y": 0},
+    "facing=west": { "model": "themedievalmod:block/sandstone_battlements", "y": 180}
+  }
+}

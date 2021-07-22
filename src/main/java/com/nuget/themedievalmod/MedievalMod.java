@@ -1,13 +1,9 @@
 package com.nuget.themedievalmod;
 
 
-import com.nuget.themedievalmod.core.init.BlockInit;
-import com.nuget.themedievalmod.core.init.SoundInit;
+import com.nuget.themedievalmod.core.init.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
-
-import com.nuget.themedievalmod.core.init.ItemInit;
 
 
 import net.minecraftforge.common.MinecraftForge;
@@ -32,7 +28,9 @@ public class MedievalMod {
         ItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
         SoundInit.SOUNDS.register(bus);
+        ContainerTypesInit.CONTAINER_TYPES.register(bus);
 //        EntityTypeInit.ENTITY_TYPES.register(bus);
+        TileEntityTypesInit.TILE_ENTITY_TYPE.register(bus);
         MinecraftForge.EVENT_BUS.register(this);
 //        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
     }

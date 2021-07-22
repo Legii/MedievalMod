@@ -1,14 +1,26 @@
 package com.nuget.themedievalmod.common.blocks;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.material.Material;
 import net.minecraft.util.Direction;
 import net.minecraft.util.math.shapes.IBooleanFunction;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.VoxelShapes;
+import net.minecraftforge.common.ToolType;
 
 import java.util.stream.Stream;
 
 public class WallBlockCorner extends RotableBlock {
+    public WallBlockCorner() {
+        super(Properties.create(Material.ROCK)
+                .hardnessAndResistance(3,4)
+                .harvestTool(ToolType.PICKAXE)
+                .harvestLevel(1)
+                .sound(SoundType.STONE));
+    }
+
+
     private static final VoxelShape SHAPE_N = Stream.of(
             Block.makeCuboidShape(0, 0, 0, 16, 0.01, 16),
             Block.makeCuboidShape(0, 1, 1, 1, 4, 8),
