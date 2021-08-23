@@ -1,8 +1,8 @@
 {
   "variants": {
-    "facing=north": { "model": "themedievalmod:block/birch_wall_floor", "y": 0 },
-    "facing=south": { "model": "themedievalmod:block/birch_wall_floor", "y": 180 },
-    "facing=east": { "model": "themedievalmod:block/birch_wall_floor", "y": 90},
-    "facing=west": { "model": "themedievalmod:block/birch_wall_floor", "y": 270}
+    "facing=north": { "model": "themedievalmod:block/spruce_wall_floor", "y": 0 },
+    "facing=south": { "model": "themedievalmod:block/spruce_wall_floor", "y": 180 },
+    "facing=east": { "model": "themedievalmod:block/spruce_wall_floor", "y": 90},
+    "facing=west": { "model": "themedievalmod:block/spruce_wall_floor", "y": 270}
   }
 }

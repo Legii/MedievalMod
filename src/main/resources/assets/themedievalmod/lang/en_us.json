@@ -30,6 +30,26 @@
   "block.themedievalmod.spruce_wall_floor": "Spruce Wall Floor",
   "block.themedievalmod.dark_oak_wall_floor": "Dark Oak Wall Floor",
   "block.themedievalmod.jungle_wall_floor": "Jungle Wall Floor",
+  "block.themedievalmod.oak_hoarding_floor": "Oak Hoarding Floor",
+  "block.themedievalmod.acacia_hoarding_floor": "Acacia Hoarding Floor",
+  "block.themedievalmod.spruce_hoarding_floor": "Spruce Hoarding Floor",
+  "block.themedievalmod.dark_oak_hoarding_floor": "Dark Oak Hoarding Floor",
+  "block.themedievalmod.jungle_hoarding_floor": "Jungle Hoarding Floor",
+  "block.themedievalmod.birch_hoarding_floor": "Birch Hoarding Floor",
+
+  "block.themedievalmod.oak_hoarding": "Oak Hoarding",
+  "block.themedievalmod.acacia_hoarding": "Acacia Hoarding",
+  "block.themedievalmod.spruce_hoarding": "Spruce Hoarding",
+  "block.themedievalmod.dark_oak_hoarding": "Dark Oak Hoarding",
+  "block.themedievalmod.jungle_hoarding": "Jungle Hoarding",
+  "block.themedievalmod.birch_hoarding": "Birch Hoarding",
+
+  "block.themedievalmod.oak_hoarding_roof": "Oak Hoarding Roof",
+  "block.themedievalmod.acacia_hoarding_roof": "Acacia Hoarding Roof",
+  "block.themedievalmod.spruce_hoarding_roof": "Spruce Hoarding Roof",
+  "block.themedievalmod.dark_oak_hoarding_roof": "Dark Oak Hoarding Roof",
+  "block.themedievalmod.jungle_hoarding_roof": "Jungle Hoarding Roof",
+  "block.themedievalmod.birch_hoarding_roof": "Birch Hoarding Roof",
 
 
   "title.themedievalmod.wall_block": "Wall Block",
@@ -49,8 +69,45 @@
   "title.themedievalmod.spruce_wall_floor": "Spruce Wall Floor",
   "title.themedievalmod.dark_oak_wall_floor": "Dark Oak Wall Floor",
   "title.themedievalmod.jungle_wall_floor": "Jungle Wall Floor",
-  "title.themedievalmod.jungle_wall_floor": "Birch Wall Floor",
+  "title.themedievalmod.birch_wall_floor": "Birch Wall Floor",
 
+  "title.themedievalmod.oak_hoarding_floor": "Oak Hoarding Floor",
+  "title.themedievalmod.acacia_hoarding_floor": "Acacia Hoarding Floor",
+  "title.themedievalmod.spruce_hoarding_floor": "Spruce Hoarding Floor",
+  "title.themedievalmod.dark_oak_hoarding_floor": "Dark Oak Hoarding Floor",
+  "title.themedievalmod.jungle_hoarding_floor": "Jungle Hoarding Floor",
+  "title.themedievalmod.birch_hoarding_floor": "Birch Hoarding Floor",
+
+  "title.themedievalmod.oak_hoarding": "Oak Hoarding",
+  "title.themedievalmod.acacia_hoarding": "Acacia Hoarding",
+  "title.themedievalmod.spruce_hoarding": "Spruce Hoarding",
+  "title.themedievalmod.dark_oak_hoarding": "Dark Oak Hoarding",
+  "title.themedievalmod.jungle_hoarding": "Jungle Hoarding",
+  "title.themedievalmod.birch_hoarding": "Birch Hoarding",
+
+  "title.themedievalmod.oak_hoarding_roof": "Oak Hoarding Roof",
+  "title.themedievalmod.acacia_hoarding_roof": "Acacia Hoarding Roof",
+  "title.themedievalmod.spruce_hoarding_roof": "Spruce Hoarding Roof",
+  "title.themedievalmod.dark_oak_hoarding_roof": "Dark Oak Hoarding Roof",
+  "title.themedievalmod.jungle_hoarding_roof": "Jungle Hoarding Roof",
+  "title.themedievalmod.birch_hoarding_roof": "Birch Hoarding Roof",
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
   "itemGroup.themedievalmod_miscs": "Medieval Miscs",
   "itemGroup.themedievalmod_materials": "Medieval Materials",

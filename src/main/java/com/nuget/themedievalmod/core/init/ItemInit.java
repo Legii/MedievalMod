@@ -5,6 +5,8 @@ import com.nuget.themedievalmod.common.items.WarHorn;
 import com.nuget.themedievalmod.core.MedievalGroup;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Rarity;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -51,7 +53,7 @@ public class ItemInit {
             () -> new WarHorn(new Item.Properties().group(MedievalGroup.MEDIEVAL_MISCS)));
     public static final RegistryObject<Item> ANVIL = ITEMS.register("anvil",
             () -> new Item(new Item.Properties().maxStackSize(1).group(MedievalGroup.MEDIEVAL_MATERIALS)));
-    //BLOCK ITEMS
+   //BLOCK ITEMS
     public static final RegistryObject<BlockItem> SHOOTING_HOLE= ITEMS.register("shooting_hole",
             () -> new BlockItem(BlockInit.SHOOTING_HOLE.get(),new Item.Properties().group(MedievalGroup.MEDIEVAL_BLOCKS)));
     public static final RegistryObject<BlockItem> SANDSTONE_SHOOTING_HOLE= ITEMS.register("sandstone_shooting_hole",
@@ -70,9 +72,57 @@ public class ItemInit {
     public static final RegistryObject<BlockItem> SANDSTONE_WALL_BLOCK_CORNER= ITEMS.register("sandstone_wall_block_corner",
             () -> new BlockItem(BlockInit.SANDSTONE_WALL_BLOCK_CORNER.get(),new Item.Properties().group(MedievalGroup.MEDIEVAL_BLOCKS)));
 
+    public static final RegistryObject<BlockItem> OAK_HOARDING_FLOOR= ITEMS.register("oak_hoarding_floor",
+            () -> new BlockItem(BlockInit.OAK_HOARDING_FLOOR.get(),new Item.Properties().group(MedievalGroup.MEDIEVAL_BLOCKS)));
+    public static final RegistryObject<BlockItem> SPRUCE_HOARDING_FLOOR= ITEMS.register("spruce_hoarding_floor",
+            () -> new BlockItem(BlockInit.SPRUCE_HOARDING_FLOOR.get(),new Item.Properties().group(MedievalGroup.MEDIEVAL_BLOCKS)));
+    public static final RegistryObject<BlockItem> BIRCH_HOARDING_FLOOR= ITEMS.register("birch_hoarding_floor",
+            () -> new BlockItem(BlockInit.BIRCH_HOARDING_FLOOR.get(),new Item.Properties().group(MedievalGroup.MEDIEVAL_BLOCKS)));
+    public static final RegistryObject<BlockItem> JUNGLE_HOARDING_FLOOR= ITEMS.register("jungle_hoarding_floor",
+            () -> new BlockItem(BlockInit.JUNGLE_HOARDING_FLOOR.get(),new Item.Properties().group(MedievalGroup.MEDIEVAL_BLOCKS)));
+    public static final RegistryObject<BlockItem> ACACIA_HOARDING_FLOOR= ITEMS.register("acacia_hoarding_floor",
+            () -> new BlockItem(BlockInit.ACACIA_HOARDING_FLOOR.get(),new Item.Properties().group(MedievalGroup.MEDIEVAL_BLOCKS)));
+    public static final RegistryObject<BlockItem> DARK_OAK_HOARDING_FLOOR= ITEMS.register("dark_oak_hoarding_floor",
+            () -> new BlockItem(BlockInit.DARK_OAK_HOARDING_FLOOR.get(),new Item.Properties().group(MedievalGroup.MEDIEVAL_BLOCKS)));
+
+
+    public static final RegistryObject<BlockItem> OAK_HOARDING= ITEMS.register("oak_hoarding",
+            () -> new BlockItem(BlockInit.OAK_HOARDING.get(),new Item.Properties().group(MedievalGroup.MEDIEVAL_BLOCKS)));
+    public static final RegistryObject<BlockItem> SPRUCE_HOARDING= ITEMS.register("spruce_hoarding",
+            () -> new BlockItem(BlockInit.SPRUCE_HOARDING.get(),new Item.Properties().group(MedievalGroup.MEDIEVAL_BLOCKS)));
+    public static final RegistryObject<BlockItem> BIRCH_HOARDING= ITEMS.register("birch_hoarding",
+            () -> new BlockItem(BlockInit.BIRCH_HOARDING.get(),new Item.Properties().group(MedievalGroup.MEDIEVAL_BLOCKS)));
+    public static final RegistryObject<BlockItem> JUNGLE_HOARDING= ITEMS.register("jungle_hoarding",
+            () -> new BlockItem(BlockInit.JUNGLE_HOARDING.get(),new Item.Properties().group(MedievalGroup.MEDIEVAL_BLOCKS)));
+    public static final RegistryObject<BlockItem> ACACIA_HOARDING= ITEMS.register("acacia_hoarding",
+            () -> new BlockItem(BlockInit.ACACIA_HOARDING.get(),new Item.Properties().group(MedievalGroup.MEDIEVAL_BLOCKS)));
+    public static final RegistryObject<BlockItem> DARK_OAK_HOARDING= ITEMS.register("dark_oak_hoarding",
+            () -> new BlockItem(BlockInit.DARK_OAK_HOARDING.get(),new Item.Properties().group(MedievalGroup.MEDIEVAL_BLOCKS)));
+
+    public static final RegistryObject<BlockItem> OAK_HOARDING_ROOF= ITEMS.register("oak_hoarding_roof",
+            () -> new BlockItem(BlockInit.OAK_HOARDING_ROOF.get(),new Item.Properties().group(MedievalGroup.MEDIEVAL_BLOCKS)));
+    public static final RegistryObject<BlockItem> SPRUCE_HOARDING_ROOF= ITEMS.register("spruce_hoarding_roof",
+            () -> new BlockItem(BlockInit.SPRUCE_HOARDING_ROOF.get(),new Item.Properties().group(MedievalGroup.MEDIEVAL_BLOCKS)));
+    public static final RegistryObject<BlockItem> BIRCH_HOARDING_ROOF= ITEMS.register("birch_hoarding_roof",
+            () -> new BlockItem(BlockInit.BIRCH_HOARDING_ROOF.get(),new Item.Properties().group(MedievalGroup.MEDIEVAL_BLOCKS)));
+    public static final RegistryObject<BlockItem> JUNGLE_HOARDING_ROOF= ITEMS.register("jungle_hoarding_roof",
+            () -> new BlockItem(BlockInit.JUNGLE_HOARDING_ROOF.get(),new Item.Properties().group(MedievalGroup.MEDIEVAL_BLOCKS)));
+    public static final RegistryObject<BlockItem> ACACIA_HOARDING_ROOF= ITEMS.register("acacia_hoarding_roof",
+            () -> new BlockItem(BlockInit.ACACIA_HOARDING_ROOF.get(),new Item.Properties().group(MedievalGroup.MEDIEVAL_BLOCKS)));
+    public static final RegistryObject<BlockItem> DARK_OAK_HOARDING_ROOF= ITEMS.register("dark_oak_hoarding_roof",
+            () -> new BlockItem(BlockInit.DARK_OAK_HOARDING_ROOF.get(),new Item.Properties().group(MedievalGroup.MEDIEVAL_BLOCKS)));
+
+
+
+
+
+
+
+
+
     public static final RegistryObject<BlockItem> SMITHY_ANVIL= ITEMS.register("smithy_anvil",
             () -> new BlockItem(BlockInit.SMITHY_ANVIL.get(),new Item.Properties().maxStackSize(1).group(MedievalGroup.MEDIEVAL_WORKBENCHES)));
 
-    /*public static final RegistryObject<WarHorn> WARHORN = ITEMS.register("warhorn",
-            () -> new WarHorn(new Item.Properties().tab(ItemGroup.TAB_FOOD).rarity(Rarity.EPIC).isImmuneToFire()));*/
+
+
 }

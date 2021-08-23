@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "facing=east,open=false":  { "model": "themedievalmod:block/oak_gate" },
+    "facing=south,open=false": { "model": "themedievalmod:block/oak_gate", "y": 90 },
+    "facing=west,open=false":  { "model": "themedievalmod:block/oak_gate", "y": 180 },
+    "facing=north,open=false": { "model": "themedievalmod:block/oak_gate", "y": 270 },
+    "facing=east,open=true":  { "model": "themedievalmod:block/oak_gate" },
+    "facing=south,open=true": { "model": "themedievalmod:block/oak_gate", "y": 90 },
+    "facing=west,open=true":  { "model": "themedievalmod:block/oak_gate", "y": 180 },
+    "facing=north,open=true": { "model": "themedievalmod:block/oak_gate", "y": 270 },
+
+  }
+}

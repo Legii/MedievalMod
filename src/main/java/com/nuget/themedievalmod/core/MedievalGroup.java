@@ -1,5 +1,6 @@
 package com.nuget.themedievalmod.core;
 
+import com.nuget.themedievalmod.core.init.BlockInit;
 import com.nuget.themedievalmod.core.init.ItemInit;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -22,8 +23,8 @@ public class MedievalGroup extends ItemGroup { private String label;
     @java.lang.Override
     public ItemStack createIcon() {
         switch(this.label)  {
-            case "themedievalmod_blocks":
-            return new ItemStack(ItemInit.WALL_BLOCK.get());
+           case "themedievalmod_blocks":
+            return new ItemStack(BlockInit.WALL_BLOCK.get());
             case "themedievalmod_workbenches":
                 return new ItemStack(ItemInit.SMITHY_ANVIL.get());
 

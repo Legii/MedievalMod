@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "themedievalmod:block/spruce_hoarding", "y": 0 },
+    "facing=south": { "model": "themedievalmod:block/spruce_hoarding", "y": 180 },
+    "facing=east": { "model": "themedievalmod:block/spruce_hoarding", "y": 90},
+    "facing=west": { "model": "themedievalmod:block/spruce_hoarding", "y": 270}
+  }
+}

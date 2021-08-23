@@ -73,4 +73,10 @@ public class AnvilTileEntity extends LockableLootTileEntity {
 			ItemStackHelper.loadAllItems(nbt, this.items);
 		}
 	}
+
+
+	public ItemStack getItem() {
+		return this.items.get(0);
+	}
+
 }

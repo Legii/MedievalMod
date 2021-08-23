@@ -153,6 +153,7 @@ public class RotableBlock extends Block {
 
     @Override
     public VoxelShape getShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {
+
         switch (state.get(FACING)) {
             case EAST:
                 return SHAPE_E;
@@ -187,4 +188,5 @@ public class RotableBlock extends Block {
         super.fillStateContainer(builder);
         builder.add(FACING);
     }
+
 }

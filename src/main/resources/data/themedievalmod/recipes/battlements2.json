@@ -1,21 +1,12 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"pattern": [
-		"WWW",
-		"WWW"
-	],
-	"key": {
-		"W": {
-			"item": "themedievalmod:wall_block"
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:stone_brick_wall"
 		}
-
-	},
+	],
 	"result": {
 		"item": "themedievalmod:battlements",
-		"count": 6
+		"count":1
 	}
-}
-
-
-
 }

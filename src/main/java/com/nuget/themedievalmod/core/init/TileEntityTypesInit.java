@@ -20,6 +20,10 @@ public class TileEntityTypesInit {
             .register("display_case",
                     () -> TileEntityType.Builder.create(AnvilTileEntity::new, BlockInit.SMITHY_ANVIL.get()).build(null));
 
+    public static final RegistryObject<TileEntityType<AnvilTileEntity>> WOODEN_GATE_TILE_ENTITY = TILE_ENTITY_TYPE
+            .register("wooden_gate",
+                    () -> TileEntityType.Builder.create(AnvilTileEntity::new, BlockInit.OAK_GATE.get()).build(null));
+
 }
 
 

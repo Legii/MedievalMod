@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WW",
+		"WW",
+		"WW"
+	],
+	"key": {
+		"W": {
+			"item": "themedievalmod:sandstone_wall_block"
+		}
+
+	},
+	"result": {
+		"item": "themedievalmod:sandstone_wall_block_corner",
+		"count": 6
+	}
+}
+
+
+
+}

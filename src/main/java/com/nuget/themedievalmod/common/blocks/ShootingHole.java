@@ -4,6 +4,8 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.Direction;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.shapes.IBooleanFunction;
@@ -11,8 +13,11 @@ import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.world.IBlockReader;
+import net.minecraft.world.World;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.common.property.Properties;
+
+import javax.annotation.Nullable;
 import java.util.stream.Stream;
 
 public class ShootingHole extends RotableBlock {
@@ -39,13 +44,13 @@ public class ShootingHole extends RotableBlock {
 
 
     private static final VoxelShape SHAPE_W = Stream.of(
-            Block.makeCuboidShape(1, 0.01, 9, 15, 7.01, 16),
-            Block.makeCuboidShape(1, 7.01, 11, 15, 10.01, 16),
-            Block.makeCuboidShape(1, 10.01, 9, 15, 15.01, 16),
-            Block.makeCuboidShape(1, 10.01, 0, 15, 15.01, 7),
-            Block.makeCuboidShape(1, 7.01, 0, 15, 10.01, 5),
-            Block.makeCuboidShape(1, 0.01, 7, 15, 2.01, 9),
-            Block.makeCuboidShape(1, 0.01, 0, 15, 7.01, 7)
+            Block.makeCuboidShape(1, 0.01, 2, 15, 7.01, 7),
+            Block.makeCuboidShape(1, 7.01, 2, 15, 10.01, 5),
+            Block.makeCuboidShape(1, 10.01, 2, 15, 15.01, 7),
+            Block.makeCuboidShape(1, 10.01, 11, 15, 15.01, 16),
+            Block.makeCuboidShape(1, 7.01, 13, 15, 10.01, 16),
+            Block.makeCuboidShape(1, 0.01, 9, 15, 2.01, 9),
+            Block.makeCuboidShape(1, 0.01, 11, 15, 7.01, 16)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
 
@@ -60,13 +65,13 @@ public class ShootingHole extends RotableBlock {
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     private static final VoxelShape SHAPE_E = Stream.of(
-            Block.makeCuboidShape(1, 0.01, 2, 15, 7.01, 9),
-            Block.makeCuboidShape(1, 7.01, 2, 15, 10.01, 7),
-            Block.makeCuboidShape(1, 10.01, 2, 15, 15.01, 9),
-            Block.makeCuboidShape(1, 10.01, 11, 15, 15.01, 18),
-            Block.makeCuboidShape(1, 7.01, 13, 15, 10.01, 18),
-            Block.makeCuboidShape(1, 0.01, 9, 15, 2.01, 11),
-            Block.makeCuboidShape(1, 0.01, 11, 15, 7.01, 18)
+            Block.makeCuboidShape(1, 0.01, 2, 15, 7.01, 7),
+            Block.makeCuboidShape(1, 7.01, 2, 15, 10.01, 5),
+            Block.makeCuboidShape(1, 10.01, 2, 15, 15.01, 7),
+            Block.makeCuboidShape(1, 10.01, 11, 15, 15.01, 16),
+            Block.makeCuboidShape(1, 7.01, 13, 15, 10.01, 16),
+            Block.makeCuboidShape(1, 0.01, 9, 15, 2.01, 9),
+            Block.makeCuboidShape(1, 0.01, 11, 15, 7.01, 16)
     ).reduce((v1, v2) -> {return VoxelShapes.combineAndSimplify(v1, v2, IBooleanFunction.OR);}).get();
 
     public ShootingHole(Properties properties) {
@@ -74,6 +79,7 @@ public class ShootingHole extends RotableBlock {
         this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
     }
     public VoxelShape getShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {
+
         switch (state.get(FACING)) {
             case EAST:
                 return SHAPE_E;
@@ -85,4 +91,6 @@ public class ShootingHole extends RotableBlock {
                 return SHAPE_N;
         }
     }
+
+
 }

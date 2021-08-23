@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WWW",
+		"W W",
+		"WWW"
+	],
+	"key": {
+		"W": {
+			"item": "themedievalmod:sandstone_wall_block"
+		}
+
+	},
+	"result": {
+		"item": "themedievalmod:sandstone_shooting_hole",
+		"count": 8
+	}
+}
+
+
+
+}
