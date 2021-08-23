@@ -49,12 +49,12 @@ public class BlockInit {
     public static final RegistryObject<Hoarding>JUNGLE_HOARDING= BLOCKS.register("jungle_hoarding",() -> new Hoarding());
     public static final RegistryObject<Hoarding>DARK_OAK_HOARDING= BLOCKS.register("dark_oak_hoarding",() -> new Hoarding());
 
-    public static final RegistryObject<Hoarding>OAK_HOARDING_ROOF= BLOCKS.register("oak_hoarding_roof",() -> new Hoarding());
-    public static final RegistryObject<Hoarding>SPRUCE_HOARDING_ROOF= BLOCKS.register("spruce_hoarding_roof",() -> new Hoarding());
-    public static final RegistryObject<Hoarding>BIRCH_HOARDING_ROOF= BLOCKS.register("birch_hoarding_roof",() -> new Hoarding());
-    public static final RegistryObject<Hoarding>ACACIA_HOARDING_ROOF= BLOCKS.register("acacia_hoarding_roof",() -> new Hoarding());
-    public static final RegistryObject<Hoarding>JUNGLE_HOARDING_ROOF= BLOCKS.register("jungle_hoarding_roof",() -> new Hoarding());
-    public static final RegistryObject<Hoarding>DARK_OAK_HOARDING_ROOF= BLOCKS.register("dark_oak_hoarding_roof",() -> new Hoarding());
+    public static final RegistryObject<HoardingRoof>OAK_HOARDING_ROOF= BLOCKS.register("oak_hoarding_roof",() -> new HoardingRoof());
+    public static final RegistryObject<HoardingRoof>SPRUCE_HOARDING_ROOF= BLOCKS.register("spruce_hoarding_roof",() -> new HoardingRoof());
+    public static final RegistryObject<HoardingRoof>BIRCH_HOARDING_ROOF= BLOCKS.register("birch_hoarding_roof",() -> new HoardingRoof());
+    public static final RegistryObject<HoardingRoof>ACACIA_HOARDING_ROOF= BLOCKS.register("acacia_hoarding_roof",() -> new HoardingRoof());
+    public static final RegistryObject<HoardingRoof>JUNGLE_HOARDING_ROOF= BLOCKS.register("jungle_hoarding_roof",() -> new HoardingRoof());
+    public static final RegistryObject<HoardingRoof>DARK_OAK_HOARDING_ROOF= BLOCKS.register("dark_oak_hoarding_roof",() -> new HoardingRoof());
 
 
 
